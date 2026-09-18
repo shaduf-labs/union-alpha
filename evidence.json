@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "S01",
+      "source_type": "primary-official",
+      "title": "Union Alpha — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Lists slug stealth/union-alpha; free input/output; 262,144 context; 131,072 max output; text+image in/text out; tools/tool_choice; response_format without JSON-schema enforcement; single Stealth endpoint. Says anonymous third-party provider and prompts/completions may be retained but not used for training. Live fields observed: P50 latency 14.48s, throughput 13 tok/s, 3d uptime 100%, availability 92.48%.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S02",
+      "source_type": "primary-official",
+      "title": "Limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Rate limits are separate from credits; /api/v1/key returns free_model_daily_requests when applicable. Docs describe free-model variants as IDs ending in ':' and say provider capacity can also cause 429; headers on platform 429 expose X-RateLimit fields. Does not name Union Alpha or assign it a Union-Alpha-specific cap.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S03",
+      "source_type": "primary-official",
+      "title": "Rate Limits — What You Need to Know",
+      "source_url": "https://openrouter.zendesk.com/hc/en-us/articles/39501163636379-OpenRouter-Rate-Limits-What-You-Need-to-Know",
+      "claim": "States 20 requests/minute and 50/day for free models, 1,000/day after >$10 purchased credits, and upstream throttles may still apply. It is not a Union-Alpha-specific quota and must not be applied to this slug without confirmation.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S04",
+      "source_type": "primary-official",
+      "title": "Pricing",
+      "source_url": "https://openrouter.ai/pricing",
+      "claim": "Free plan shows 50 reqs/day. It is plan-level, not a documented Union Alpha request/token/concurrency allocation.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S05",
+      "source_type": "primary-official",
+      "title": "API Reference",
+      "source_url": "https://openrouter.ai/docs/api_reference/overview",
+      "claim": "Documents POST /api/v1/chat/completions, Bearer auth, OpenAI-like messages, tools, image_url content parts and response_format.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S06",
+      "source_type": "primary-official",
+      "title": "OpenCode Go documentation",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "Lists Union Alpha Free, Go model id union-alpha, POST endpoint https://opencode.ai/zen/go/v1/messages, config id opencode-go/union-alpha, price Free and monthly limit Unlimited (limited time); estimated requests Unlimited. Privacy table says model training Not used and data retention 0 days. It also says Go requires sign-in/subscription and API key; policy may change.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S07",
+      "source_type": "primary-official",
+      "title": "OpenCode Intro",
+      "source_url": "https://opencode.ai/docs",
+      "claim": "Installation options, /connect, sign-in/API-key prerequisites and basic TUI workflow; OpenCode documents API keys as prerequisite.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S08",
+      "source_type": "primary-official (mirrored social post)",
+      "title": "Launch post mirror",
+      "source_url": "https://mobile.twstalker.com/opencode",
+      "claim": "Post says: Union Alpha stealth model is free for the next week, no data training, built for agentic coding, supports images. It does not give an exact end time or per-day/request/token/concurrency cap.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S09",
+      "source_type": "primary official post, social mirror only",
+      "title": "DeepSWE result announcement",
+      "source_url": "https://www.sotwe.com/airesearch12",
+      "claim": "Says 'Here’s the DeepSWE result for Union Alpha' and 'Works in every harness'; the accessible mirror does not disclose task set/version, sample count, harness commit, prompt, settings, route, raw run data, or readable graph values. Do not redraw or treat as a qualifying benchmark.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S10",
+      "source_type": "primary community discussion",
+      "title": "New stealth model: Union Alpha",
+      "source_url": "https://www.reddit.com/r/singularity/comments/1wi03f6/new_stealth_model_union_alpha/",
+      "claim": "Large launch discussion. Contains unverified identity conjectures (GLM, Kimi, Mistral, OpenAI, Qwen), claimed tokenizer tests, safety observations, reported loops, slow/stuck responses, and demand for sources/methods. Individual comments often omit prompts/settings; not a benchmark.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S11",
+      "source_type": "primary community discussion",
+      "title": "(European) Union Alpha",
+      "source_url": "https://www.reddit.com/r/MistralAI/comments/1wi3aev/european_union_alpha/",
+      "claim": "Mistral theory cites the name, 262K context, Spain account association and event timing; countercomments note no proof. Thread includes claimed political-safety outputs and conflicting tokenizer claims; no official attribution.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S12",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://zamantika.com/profile/scottstts",
+      "claim": "Reports an hour-long test with 13 tool calls at high reasoning and 70–80 tps; separately says a Monica apt test failed after over an hour and calls it possibly benchmark-optimized. Notes an output-similarity observation to Astra. Prompts, route/settings beyond 'high', and raw traces are missing.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S13",
+      "source_type": "original-user post through mirror",
+      "title": "Profile post",
+      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/filicroval",
+      "claim": "Reports Union Alpha sitting for about one hour without visible thinking traces. Image/raw session unavailable in accessible text; client, prompt and route are unknown.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S14",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/cherry_mx_reds",
+      "claim": "Reports provider errors on OpenRouter and a self-run 'Spidey bench' observation of 70 tok/s and 81% cache hit; no protocol/settings/sample/raw output. Separately repeats a '~74% DeepSWE' claim, which is not a first-hand disclosed benchmark in this source.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S15",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://instalker.org/TimJayas",
+      "claim": "Reports OpenRouter errors/slow use; client/prompt/settings/raw errors absent. Must not be interpreted as a platform-wide outage or benchmark.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S16",
+      "source_type": "secondary blog",
+      "title": "Image prompt / GLM identity investigation",
+      "source_url": "https://www.ai-jitan-hub.com/news/union-alpha-stealth-model",
+      "claim": "Claims image-prompt self-identification as GLM/Z.ai, tokenizer 18/18 and a four-task timing run via OpenCode; gives author confidence ranges but accessible material lacks full prompts/raw outputs/harness controls. It explicitly frames conclusion as inference.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S17",
+      "source_type": "secondary model index",
+      "title": "Union Alpha provider comparison",
+      "source_url": "https://providerbench.ai/models/stealth/union-alpha/",
+      "claim": "Mirrors a single Stealth endpoint and lists speed telemetry/API parameters. It is not an independent quality benchmark and should not be used to identify the provider/model.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S18",
+      "source_type": "secondary social mirror",
+      "title": "Profile posts",
+      "source_url": "https://zamantika.com/fr/profile/NFT_Chen",
+      "claim": "Repeats claimed DeepSWE 73% and proposed GLM fingerprint evidence, but accessible post does not supply runnable 26 text/image probes, raw traces, harness settings, scores, or original graph data. Preserve as lead only.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    }
+  ]
+}

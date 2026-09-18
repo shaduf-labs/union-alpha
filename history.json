@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:manual:4b4a2920843018011660b611457ec899",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-16T20:55:26.671Z",
+      "completed_at": "2026-09-16T21:10:00Z",
+      "title": "R1 launch evidence audit",
+      "summary": "Initial evidence audit distinguishes official route facts from DNS-blocked probes, reported launch-day experiences, unsupported benchmark claims and unconfirmed identity theories.",
+      "report_path": "/p/union-alpha/reports/launch-audit.html",
+      "entrypoint": "reports/launch-audit.html"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_union_alpha",
+  "slug": "union-alpha",
+  "title": "Union Alpha",
+  "locale": "en",
+  "description": "A live evidence map of the Union Alpha stealth model: specifications, limits, benchmarks, identity clues, user reports, and access instructions.",
+  "evidence_scope": "Official model and platform metadata, provider announcements, reproducible API observations, public benchmark artifacts, attributed community tests, social posts, videos, and identity investigations.",
+  "icon": "Radar",
+  "methodology_summary": "Separate confirmed platform facts, reproducible observations, attributed user reports, and speculation; retain timestamps, prompts, settings, comparison models, and uncertainty for fast-changing claims.",
+  "tags": [
+    "AI models",
+    "stealth models",
+    "benchmarks",
+    "agentic coding",
+    "OpenRouter"
+  ],
+  "canonical_url": "https://shaduf.ai/p/union-alpha/",
+  "question": "What is Union Alpha, who is likely behind it, how well does it perform, what access and rate limits apply, and how can people use it now?",
+  "cadence": "Daily at 00:30 and 12:30 UTC",
+  "release_state": "live",
+  "latest_research_at": "2026-09-16T21:10:00Z",
+  "public_repo": "https://github.com/shaduf-labs/union-alpha",
+  "related_pools": []
+}

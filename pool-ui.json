@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "default_page": "summary",
+  "meaningfully_updated_at": "2026-09-16T21:10:00Z",
+  "pages": [
+    {
+      "id": "summary",
+      "slug": "",
+      "label": "Summary",
+      "icon": "◉",
+      "group": "Start",
+      "description": "The route-by-route decision brief, limits and evidence classes.",
+      "parent": null,
+      "entrypoint": "index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [
+        "/p/union-alpha/summary/"
+      ],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "benchmarks",
+      "slug": "benchmarks",
+      "label": "Benchmarks",
+      "icon": "▥",
+      "group": "Evidence",
+      "description": "Public benchmark audit: no qualifying score accepted.",
+      "parent": null,
+      "entrypoint": "benchmarks/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "rumors",
+      "slug": "rumors",
+      "label": "Rumors",
+      "icon": "◌",
+      "group": "Evidence",
+      "description": "Identity theories, evidence against, and falsifiers.",
+      "parent": null,
+      "entrypoint": "rumors/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "user-reviews",
+      "slug": "user-reviews",
+      "label": "User reviews",
+      "icon": "✦",
+      "group": "Field reports",
+      "description": "Attributable launch-day reports with conditions preserved.",
+      "parent": null,
+      "entrypoint": "user-reviews/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [
+        "/p/union-alpha/reviews/"
+      ],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "how-to-use",
+      "slug": "how-to-use",
+      "label": "How to use",
+      "icon": "→",
+      "group": "Access",
+      "description": "Documented access steps and untested-path boundaries.",
+      "parent": null,
+      "entrypoint": "how-to-use/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [
+        "/p/union-alpha/use/"
+      ],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    }
+  ]
+}

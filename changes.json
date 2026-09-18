@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "r1-launch-audit",
+      "changed_at": "2026-09-16T21:10:00Z",
+      "path": "/p/",
+      "summary": "Initial unpublished Union Alpha evidence watch: decision brief, access boundaries, benchmark/rumor/review ledgers, source register and rate-limit reader."
+    }
+  ]
+}

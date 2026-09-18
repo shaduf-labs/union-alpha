@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "Union Alpha is an anonymously provided, launch-day OpenRouter model listed as stealth/union-alpha. It is currently listed at $0 with text/image input, but its exact OpenRouter model-specific quota, owner, post-preview terms and independent reproducible performance remain unknown. Use a route-specific privacy reading and only non-sensitive, fallback-backed evaluation until those gaps close.",
+  "catalogue_card": {
+    "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used?",
+    "text": "Known route facts: OpenRouter lists a free anonymous model with 262,144 context and 131,072 maximum output. Unknown: owner, exact model-specific OpenRouter quota, independent benchmark, and post-preview price. OpenCode Go has a distinct limited-time “Unlimited” route listing that is not transferable."
+  },
+  "summary": [
+    "OpenRouter lists stealth/union-alpha at $0 input/output with text and image input, text output, 262,144 context and 131,072 maximum output (checked 2026-09-16T21:03:17Z).",
+    "OpenRouter says the anonymous provider may retain prompts/completions; do not equate its no-training statement with no retention. OpenCode Go documents a separate 0-day-retention route policy.",
+    "No Union Alpha-specific OpenRouter daily, per-minute, token or concurrency quota was located. Generic free-model policy is not assigned to this slug.",
+    "No qualifying public benchmark or confirmed owner was located; reported quality, speed and identity claims remain explicitly bounded."
+  ],
+  "uncertainty": [
+    "Exact OpenRouter quota and real-world throughput/concurrency are unknown; four probes DNS-failed before HTTP/TLS.",
+    "OpenCode Go’s limited-time “Unlimited” listing is route-specific and not a capacity guarantee or OpenRouter entitlement.",
+    "Identity theories based on prompt self-ID, tokenizer, output style, safety, geography or timing are not confirmations."
+  ],
+  "checked_at": "2026-09-16T21:03:17Z",
+  "meaningfully_updated_at": "2026-09-16T21:10:00Z",
+  "freshness_note": "Launch-day, volatile evidence. Re-check official model, limits, pricing and OpenCode Go pages before relying on availability, price, telemetry, privacy or entitlement language."
+}
