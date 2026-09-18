@@ -2,13 +2,193 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "evidence_id": "S01",
+      "evidence_id": "R2-S01",
       "source_type": "primary-official",
       "title": "Union Alpha — API Pricing & Providers",
       "source_url": "https://openrouter.ai/stealth/union-alpha",
-      "claim": "Lists slug stealth/union-alpha; free input/output; 262,144 context; 131,072 max output; text+image in/text out; tools/tool_choice; response_format without JSON-schema enforcement; single Stealth endpoint. Says anonymous third-party provider and prompts/completions may be retained but not used for training. Live fields observed: P50 latency 14.48s, throughput 13 tok/s, 3d uptime 100%, availability 92.48%.",
-      "accessed_at": "2026-09-16T21:03:17Z",
+      "claim": "Historical page says Union Alpha was revealed as Pareto by Unbiased, free stealth period ended, and points to unbiased/pareto. It retains historical wording that prompts/completions may have been retained but not used for training.",
+      "accessed_at": "2026-09-18T08:26:20Z",
       "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter models catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Live catalog has no stealth/union-alpha match and contains unbiased/pareto with declared 262,144 context, 131,072 max output, text+image input/text output, paid rates and per_request_limits null.",
+      "accessed_at": "2026-09-18T08:26:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S03",
+      "source_type": "primary-official",
+      "title": "Pareto — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Lists paid Pareto at $2.50/M input, $7.50/M output and $0.25/M cache read; declares tools/tool_choice but no response_format. This is successor metadata, not a successful Union Alpha request.",
+      "accessed_at": "2026-09-18T08:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter Limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Free-model variant limits are scoped to IDs ending in colon; provider capacity can produce 429. This is generic policy, not a Union Alpha/Pareto quota.",
+      "accessed_at": "2026-09-18T08:26:20Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S06",
+      "source_type": "primary-official",
+      "title": "OpenCode Go documentation",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "Names Union Alpha Free (limited time), requires sign-in, Go subscription and API key; lists union-alpha endpoint/config form, Unlimited estimates, Not used/0-day retention, and changeable limits.",
+      "accessed_at": "2026-09-18T08:26:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S07",
+      "source_type": "primary-official",
+      "title": "OpenCode Go public model list",
+      "source_url": "https://opencode.ai/zen/go/v1/models",
+      "claim": "Contains union-alpha owned_by opencode. This is catalog evidence only, not an authenticated inference response.",
+      "accessed_at": "2026-09-18T08:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S09",
+      "source_type": "first-party",
+      "title": "Unbiased AI home",
+      "source_url": "https://unbiased.ai/",
+      "claim": "Says Pareto is Unbiased’s blended model and Unbiased/Pareto are built and maintained by Circuit & Chisel.",
+      "accessed_at": "2026-09-18T08:31:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S10",
+      "source_type": "first-party",
+      "title": "About Unbiased",
+      "source_url": "https://unbiased.ai/about/",
+      "claim": "Says Circuit & Chisel was founded by Louis Amira and David Noël-Romas.",
+      "accessed_at": "2026-09-18T08:31:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R2-S11",
+      "source_type": "provider-published method and score claim",
+      "title": "Pareto 26.9 model card and pareto-evals",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Provider model card claims 74 DeepSWE and 51 Terminal-Bench 4.0; inspected public harness documents a method but no archived raw output bundle linking the figures to the Union Alpha preview snapshot or route.",
+      "accessed_at": "2026-09-18T08:35:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S01",
+      "source_type": "primary-official (historical)",
+      "title": "Union Alpha — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "R1 launch listing: $0 input/output, 262,144 context, 131,072 max output, text/image input and anonymous-provider retention wording. Superseded for current route status; preserved as historical evidence.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S06",
+      "source_type": "primary-official (historical)",
+      "title": "OpenCode Go documentation",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "R1 documented union-alpha / opencode-go/union-alpha and limited-time Unlimited wording. R2 reconfirms documentation but not access.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S09",
+      "source_type": "primary official post, social mirror only",
+      "title": "DeepSWE result announcement",
+      "source_url": "https://www.sotwe.com/airesearch12",
+      "claim": "R1 lead with no disclosed task/version, sample, harness, route, settings or raw data; not a qualifying benchmark.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S10",
+      "source_type": "primary community discussion",
+      "title": "New stealth model: Union Alpha",
+      "source_url": "https://www.reddit.com/r/singularity/comments/1wi03f6/new_stealth_model_union_alpha/",
+      "claim": "R1 launch discussion contains unverified identity conjectures and mixed experience reports with incomplete methods; preserved as dated community context, not attribution or benchmark evidence.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S12",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://zamantika.com/profile/scottstts",
+      "claim": "Launch-day report of tool calls, speed and a failed apt test without adequate protocol/raw trace; not a benchmark.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S13",
+      "source_type": "original-user post through mirror",
+      "title": "Profile post",
+      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/filicroval",
+      "claim": "Launch-day report of about an hour without visible thinking traces; client, prompt and route unknown.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S14",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/cherry_mx_reds",
+      "claim": "Launch-day reports of provider errors and self-run speed/cache observations without sufficient protocol.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S15",
+      "source_type": "original-user post through mirror",
+      "title": "Profile posts",
+      "source_url": "https://instalker.org/TimJayas",
+      "claim": "Launch-day report of OpenRouter errors/slow use without client, prompt, settings or raw errors.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S16",
+      "source_type": "secondary blog",
+      "title": "Image prompt / GLM identity investigation",
+      "source_url": "https://www.ai-jitan-hub.com/news/union-alpha-stealth-model",
+      "claim": "R1 secondary identity/performance inference lacking full prompts, raw outputs and harness controls; historical lead only.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "S18",
+      "source_type": "secondary social mirror",
+      "title": "Profile posts",
+      "source_url": "https://zamantika.com/fr/profile/NFT_Chen",
+      "claim": "R1 reposted claimed DeepSWE/fingerprint evidence without runnable probes, raw traces or graph data; historical lead only.",
+      "accessed_at": "2026-09-16T21:03:17Z",
+      "relation": "unresolved",
       "publication_basis": "linked-summary"
     },
     {
@@ -52,16 +232,6 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "S06",
-      "source_type": "primary-official",
-      "title": "OpenCode Go documentation",
-      "source_url": "https://opencode.ai/docs/go",
-      "claim": "Lists Union Alpha Free, Go model id union-alpha, POST endpoint https://opencode.ai/zen/go/v1/messages, config id opencode-go/union-alpha, price Free and monthly limit Unlimited (limited time); estimated requests Unlimited. Privacy table says model training Not used and data retention 0 days. It also says Go requires sign-in/subscription and API key; policy may change.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "supports",
-      "publication_basis": "linked-summary"
-    },
-    {
       "evidence_id": "S07",
       "source_type": "primary-official",
       "title": "OpenCode Intro",
@@ -82,81 +252,11 @@
       "publication_basis": "linked-summary"
     },
     {
-      "evidence_id": "S09",
-      "source_type": "primary official post, social mirror only",
-      "title": "DeepSWE result announcement",
-      "source_url": "https://www.sotwe.com/airesearch12",
-      "claim": "Says 'Here’s the DeepSWE result for Union Alpha' and 'Works in every harness'; the accessible mirror does not disclose task set/version, sample count, harness commit, prompt, settings, route, raw run data, or readable graph values. Do not redraw or treat as a qualifying benchmark.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "unresolved",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S10",
-      "source_type": "primary community discussion",
-      "title": "New stealth model: Union Alpha",
-      "source_url": "https://www.reddit.com/r/singularity/comments/1wi03f6/new_stealth_model_union_alpha/",
-      "claim": "Large launch discussion. Contains unverified identity conjectures (GLM, Kimi, Mistral, OpenAI, Qwen), claimed tokenizer tests, safety observations, reported loops, slow/stuck responses, and demand for sources/methods. Individual comments often omit prompts/settings; not a benchmark.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "unresolved",
-      "publication_basis": "linked-summary"
-    },
-    {
       "evidence_id": "S11",
       "source_type": "primary community discussion",
       "title": "(European) Union Alpha",
       "source_url": "https://www.reddit.com/r/MistralAI/comments/1wi3aev/european_union_alpha/",
       "claim": "Mistral theory cites the name, 262K context, Spain account association and event timing; countercomments note no proof. Thread includes claimed political-safety outputs and conflicting tokenizer claims; no official attribution.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "unresolved",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S12",
-      "source_type": "original-user post through mirror",
-      "title": "Profile posts",
-      "source_url": "https://zamantika.com/profile/scottstts",
-      "claim": "Reports an hour-long test with 13 tool calls at high reasoning and 70–80 tps; separately says a Monica apt test failed after over an hour and calls it possibly benchmark-optimized. Notes an output-similarity observation to Astra. Prompts, route/settings beyond 'high', and raw traces are missing.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S13",
-      "source_type": "original-user post through mirror",
-      "title": "Profile post",
-      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/filicroval",
-      "claim": "Reports Union Alpha sitting for about one hour without visible thinking traces. Image/raw session unavailable in accessible text; client, prompt and route are unknown.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S14",
-      "source_type": "original-user post through mirror",
-      "title": "Profile posts",
-      "source_url": "https://d46rckpsl2ks7laj5lfg.twstalker.com/cherry_mx_reds",
-      "claim": "Reports provider errors on OpenRouter and a self-run 'Spidey bench' observation of 70 tok/s and 81% cache hit; no protocol/settings/sample/raw output. Separately repeats a '~74% DeepSWE' claim, which is not a first-hand disclosed benchmark in this source.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S15",
-      "source_type": "original-user post through mirror",
-      "title": "Profile posts",
-      "source_url": "https://instalker.org/TimJayas",
-      "claim": "Reports OpenRouter errors/slow use; client/prompt/settings/raw errors absent. Must not be interpreted as a platform-wide outage or benchmark.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S16",
-      "source_type": "secondary blog",
-      "title": "Image prompt / GLM identity investigation",
-      "source_url": "https://www.ai-jitan-hub.com/news/union-alpha-stealth-model",
-      "claim": "Claims image-prompt self-identification as GLM/Z.ai, tokenizer 18/18 and a four-task timing run via OpenCode; gives author confidence ranges but accessible material lacks full prompts/raw outputs/harness controls. It explicitly frames conclusion as inference.",
       "accessed_at": "2026-09-16T21:03:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -169,16 +269,6 @@
       "claim": "Mirrors a single Stealth endpoint and lists speed telemetry/API parameters. It is not an independent quality benchmark and should not be used to identify the provider/model.",
       "accessed_at": "2026-09-16T21:03:17Z",
       "relation": "context",
-      "publication_basis": "linked-summary"
-    },
-    {
-      "evidence_id": "S18",
-      "source_type": "secondary social mirror",
-      "title": "Profile posts",
-      "source_url": "https://zamantika.com/fr/profile/NFT_Chen",
-      "claim": "Repeats claimed DeepSWE 73% and proposed GLM fingerprint evidence, but accessible post does not supply runnable 26 text/image probes, raw traces, harness settings, scores, or original graph data. Preserve as lead only.",
-      "accessed_at": "2026-09-16T21:03:17Z",
-      "relation": "unresolved",
       "publication_basis": "linked-summary"
     }
   ]

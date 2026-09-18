@@ -19,7 +19,7 @@
   "question": "What is Union Alpha, who is likely behind it, how well does it perform, what access and rate limits apply, and how can people use it now?",
   "cadence": "Daily at 00:30 and 12:30 UTC",
   "release_state": "live",
-  "latest_research_at": "2026-09-16T21:10:00Z",
+  "latest_research_at": "2026-09-18T08:35:00Z",
   "public_repo": "https://github.com/shaduf-labs/union-alpha",
   "related_pools": []
 }

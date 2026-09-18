@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Union Alpha is an anonymously provided, launch-day OpenRouter model listed as stealth/union-alpha. It is currently listed at $0 with text/image input, but its exact OpenRouter model-specific quota, owner, post-preview terms and independent reproducible performance remain unknown. Use a route-specific privacy reading and only non-sensitive, fallback-backed evaluation until those gaps close.",
+  "current_answer": "Union Alpha’s OpenRouter stealth preview has ended. OpenRouter identifies it as Pareto by Unbiased and no longer catalog-lists stealth/union-alpha; the linked paid unbiased/pareto route must be evaluated separately. OpenCode Go still documents union-alpha, but requires sign-in, a Go subscription and an API key. R2 made zero inference requests, so current entitlement, quota, reliability and capacity are unmeasured.",
   "catalogue_card": {
-    "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used?",
-    "text": "Known route facts: OpenRouter lists a free anonymous model with 262,144 context and 131,072 maximum output. Unknown: owner, exact model-specific OpenRouter quota, independent benchmark, and post-preview price. OpenCode Go has a distinct limited-time “Unlimited” route listing that is not transferable."
+    "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used now?",
+    "text": "Primary attribution: Union Alpha was revealed as Pareto by Unbiased; Unbiased/Pareto are maintained by Circuit & Chisel. The old OpenRouter preview is no longer catalog-listed. OpenCode Go’s documented alias is subscription/key-gated and untested. Generic OpenRouter 50/day and Go ‘Unlimited’ wording are not a model quota or SLA."
   },
   "summary": [
-    "OpenRouter lists stealth/union-alpha at $0 input/output with text and image input, text output, 262,144 context and 131,072 maximum output (checked 2026-09-16T21:03:17Z).",
-    "OpenRouter says the anonymous provider may retain prompts/completions; do not equate its no-training statement with no retention. OpenCode Go documents a separate 0-day-retention route policy.",
-    "No Union Alpha-specific OpenRouter daily, per-minute, token or concurrency quota was located. Generic free-model policy is not assigned to this slug.",
-    "No qualifying public benchmark or confirmed owner was located; reported quality, speed and identity claims remain explicitly bounded."
+    "OpenRouter’s historical Union Alpha page says the free stealth period ended, identifies Pareto by Unbiased, and directs readers to paid unbiased/pareto; the current catalog has no stealth/union-alpha match (R2, 2026-09-18 UTC).",
+    "OpenCode Go still publicly documents union-alpha / opencode-go/union-alpha as Free (limited time), but requires sign-in, a Go subscription and API key. Its displayed ‘Unlimited’ is route-specific entitlement language, not a capacity guarantee.",
+    "R2 made no inference request because no lawful pre-existing credential was present. There is no R2 HTTP status, header, latency, tool, image, rate-limit or throughput evidence (n=0).",
+    "Provider-published Pareto 26.9 claims (74 DeepSWE, 51 Terminal-Bench 4.0) and a public harness do not independently verify the retired Union Alpha preview snapshot."
   ],
   "uncertainty": [
-    "Exact OpenRouter quota and real-world throughput/concurrency are unknown; four probes DNS-failed before HTTP/TLS.",
-    "OpenCode Go’s limited-time “Unlimited” listing is route-specific and not a capacity guarantee or OpenRouter entitlement.",
-    "Identity theories based on prompt self-ID, tokenizer, output style, safety, geography or timing are not confirmations."
+    "Exact current OpenCode entitlement, model-specific limits, capacity, reliability and route success are unobserved.",
+    "Generic OpenRouter Free-plan 50/day/free-variant policy and Go ‘Unlimited’ must not be recast as a Union Alpha or Pareto quota or SLA.",
+    "Pareto component models, version/snapshot mapping across the old preview and Go alias, and Pareto-specific retention remain undisclosed or unverified."
   ],
-  "checked_at": "2026-09-16T21:03:17Z",
-  "meaningfully_updated_at": "2026-09-16T21:10:00Z",
-  "freshness_note": "Launch-day, volatile evidence. Re-check official model, limits, pricing and OpenCode Go pages before relying on availability, price, telemetry, privacy or entitlement language."
+  "checked_at": "2026-09-18T08:35:00Z",
+  "meaningfully_updated_at": "2026-09-18T08:35:00Z",
+  "freshness_note": "Volatile route status. Re-check official catalog, pricing, entitlement and data-policy pages before relying on any access, price, retention, limit or capability claim."
 }

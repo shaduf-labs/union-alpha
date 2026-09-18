@@ -187,16 +187,49 @@
     document.querySelectorAll('.related-dock a[data-target-id]').forEach((node) => relatedObserver.observe(node))
   }
 
-  const toolFrames = new Map([...document.querySelectorAll('[data-tool-frame]')].map((frame) => [frame.contentWindow, frame]))
-  document.querySelectorAll('[data-tool-frame]').forEach((frame) => frame.addEventListener('load', () => {
+  const toolFrames = new Map()
+  const registeredToolFrames = new WeakSet()
+  const requestToolMeasurement = (frame) => {
     frame.contentWindow?.postMessage({ type: 'shaduf:theme', theme: 'light' }, '*')
-  }))
+    frame.contentWindow?.postMessage({ type: 'shaduf:measure' }, '*')
+  }
+  const fitToolFrame = (frame, contentHeight) => {
+    const style = window.getComputedStyle(frame)
+    const pixel = (value) => Number.parseFloat(value) || 0
+    const frameChrome = style.boxSizing === 'border-box'
+      ? pixel(style.borderTopWidth) + pixel(style.borderBottomWidth) + pixel(style.paddingTop) + pixel(style.paddingBottom)
+      : 0
+    frame.style.height = `${Math.ceil(contentHeight + frameChrome)}px`
+  }
+  const registerToolFrame = (frame) => {
+    if (frame?.tagName !== 'IFRAME' || registeredToolFrames.has(frame)) return
+    registeredToolFrames.add(frame)
+    if (frame.contentWindow) toolFrames.set(frame.contentWindow, frame)
+    frame.addEventListener('load', () => {
+      for (const [source, registered] of toolFrames) if (registered === frame) toolFrames.delete(source)
+      if (frame.contentWindow) toolFrames.set(frame.contentWindow, frame)
+      requestToolMeasurement(frame)
+    })
+    window.requestAnimationFrame(() => requestToolMeasurement(frame))
+  }
+  const registerToolFrames = (root = document) => {
+    if (root?.tagName === 'IFRAME' && root.matches('[data-tool-frame],[data-agent-document] iframe[sandbox~="allow-scripts"][src]')) registerToolFrame(root)
+    root.querySelectorAll?.('[data-tool-frame],[data-agent-document] iframe[sandbox~="allow-scripts"][src]').forEach(registerToolFrame)
+  }
+  registerToolFrames()
+  if ('MutationObserver' in window) new MutationObserver((records) => {
+    for (const record of records) for (const node of record.addedNodes) if (node?.nodeType === 1) registerToolFrames(node)
+  }).observe(document.documentElement, { childList: true, subtree: true })
   window.addEventListener('message', (event) => {
     const frame = toolFrames.get(event.source)
     if (!frame || event.origin !== 'null' || !event.data || typeof event.data !== 'object') return
     if (event.data.type === 'shaduf:resize') {
-      const height = Math.max(240, Math.min(1200, Number(event.data.height) || 0))
-      frame.style.height = `${height}px`
+      const height = Number(event.data.height)
+      if (!Number.isFinite(height) || height <= 0) return
+      frame.dataset.shadufResizeReady = 'true'
+      fitToolFrame(frame,height)
+    } else if (event.data.type === 'shaduf:ready') {
+      requestToolMeasurement(frame)
     } else if (event.data.type === 'shaduf:fullscreen') {
       frame.requestFullscreen?.().catch(() => {})
     } else if (event.data.type === 'shaduf:navigate' && typeof event.data.path === 'string') {

@@ -2,13 +2,24 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:manual:8245aa52a11393edf3b6e8fbfc3ccabd",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-18T08:26:20Z",
+      "completed_at": "2026-09-18T08:35:00Z",
+      "title": "R2 current-status and capacity delta",
+      "summary": "OpenRouter reveals Union Alpha as Pareto by Unbiased and ends the free stealth preview; old ID is no longer catalog-listed. OpenCode Go remains documentation-only in this run; no R2 inference request was sent (n=0).",
+      "report_path": "/p/union-alpha/reports/current-status-r2.html",
+      "entrypoint": "reports/current-status-r2.html"
+    },
+    {
       "run_id": "run:manual:4b4a2920843018011660b611457ec899",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-16T20:55:26.671Z",
       "completed_at": "2026-09-16T21:10:00Z",
       "title": "R1 launch evidence audit",
-      "summary": "Initial evidence audit distinguishes official route facts from DNS-blocked probes, reported launch-day experiences, unsupported benchmark claims and unconfirmed identity theories.",
+      "summary": "Historical launch audit distinguishes official route facts from DNS-blocked probes, reported launch-day experiences, unsupported benchmark claims and then-unconfirmed identity theories.",
       "report_path": "/p/union-alpha/reports/launch-audit.html",
       "entrypoint": "reports/launch-audit.html"
     }

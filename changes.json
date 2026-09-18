@@ -2,10 +2,16 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "r2-reveal-and-route-status",
+      "changed_at": "2026-09-18T08:35:00Z",
+      "path": "/p/union-alpha/",
+      "summary": "OpenRouter says the Union Alpha free stealth preview ended and reveals Pareto by Unbiased; old stealth/union-alpha is no longer catalog-listed. OpenCode Go remains documentation-only and subscription/key-gated in this run (R2 n=0)."
+    },
+    {
       "change_id": "r1-launch-audit",
       "changed_at": "2026-09-16T21:10:00Z",
-      "path": "/p/",
-      "summary": "Initial unpublished Union Alpha evidence watch: decision brief, access boundaries, benchmark/rumor/review ledgers, source register and rate-limit reader."
+      "path": "/p/union-alpha/reports/launch-audit.html",
+      "summary": "Historical launch audit retained: anonymous free listing, DNS-blocked probes, and launch-day benchmark/identity/review boundaries."
     }
   ]
 }
