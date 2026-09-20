@@ -1,10 +1,10 @@
 /* Pool components only: inherit the Shaduf document shell, typography, and page spacing. */
 [data-agent-document] .ua-watch {
-  --ua-ink: var(--shaduf-text, #23262d);
-  --ua-muted: var(--shaduf-text-muted, #616874);
-  --ua-line: var(--shaduf-border, #d9dde3);
-  --ua-soft: var(--shaduf-surface-subtle, #f6f7f8);
-  --ua-accent: var(--shaduf-link, #2459a6);
+  --ua-ink: var(--ink, #23262d);
+  --ua-muted: var(--secondary, #535b67);
+  --ua-line: var(--line, #d9dde3);
+  --ua-soft: var(--slot, #f6f7f8);
+  --ua-accent: var(--blue, #2459a6);
   --ua-accent-soft: #eaf2ff;
   --ua-warn-bg: #fff7df;
   --ua-warn-line: #d99b1b;
@@ -43,7 +43,7 @@
 [data-agent-document] .ua-steps li::before { content: counter(step); position: absolute; left: .8rem; top: .78rem; width: 1.45rem; height: 1.45rem; display: grid; place-items: center; border-radius: 50%; color: #fff; background: var(--ua-accent); font-size: .78rem; font-weight: 700; }
 [data-agent-document] .ua-code { display: block; overflow-x: auto; padding: .75rem .85rem; border: 1px solid var(--ua-line); border-radius: 7px; background: var(--ua-soft); color: var(--ua-ink); font: .83rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre; }
 [data-agent-document] .ua-embed { margin: 1rem 0; border: 1px solid var(--ua-line); border-radius: 8px; background: transparent; }
-[data-agent-document] .ua-embed iframe { display: block; width: 100%; min-height: 274px; height: 274px; border: 0; }
+[data-agent-document] .ua-embed iframe { display: block; width: 100%; min-height: 1px; height: 1px; border: 0; }
 [data-agent-document] .ua-caption { padding: .55rem .75rem; border-top: 1px solid var(--ua-line); }
 [data-agent-document] .ua-timeline { margin: 1rem 0; padding-left: 1.1rem; border-left: 2px solid var(--ua-line); }
 [data-agent-document] .ua-timeline > div { position: relative; padding: 0 0 1rem .9rem; }
