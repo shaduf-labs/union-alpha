@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Union Alpha’s OpenRouter stealth preview has ended. OpenRouter identifies it as Pareto by Unbiased and no longer catalog-lists stealth/union-alpha; the linked paid unbiased/pareto route must be evaluated separately. OpenCode Go still documents union-alpha, but requires sign-in, a Go subscription and an API key. R2 made zero inference requests, so current entitlement, quota, reliability and capacity are unmeasured.",
+  "current_answer": "Union Alpha’s former OpenRouter preview is retired: its historical page identifies the reveal as Pareto by Unbiased, while the current catalog omits stealth/union-alpha. Paid unbiased/pareto is separately catalog-listed but was not tested or shown to be a fixed preview snapshot. The former OpenCode Go union-alpha alias is absent from inspected current Go docs and public catalog. R3 sent zero requests (n=0), so access, entitlement, quota, privacy, capacity, reliability and route equivalence remain unobserved.",
   "catalogue_card": {
     "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used now?",
-    "text": "Primary attribution: Union Alpha was revealed as Pareto by Unbiased; Unbiased/Pareto are maintained by Circuit & Chisel. The old OpenRouter preview is no longer catalog-listed. OpenCode Go’s documented alias is subscription/key-gated and untested. Generic OpenRouter 50/day and Go ‘Unlimited’ wording are not a model quota or SLA."
+    "text": "Former-preview attribution is Pareto by Unbiased, maintained by Circuit & Chisel. Do not configure the retired OpenRouter ID or the former Go alias. Do not transfer historic Go Unlimited/0-day wording, generic OpenRouter free-variant rules, or provider telemetry into a current Union Alpha quota, privacy guarantee, or SLA."
   },
   "summary": [
-    "OpenRouter’s historical Union Alpha page says the free stealth period ended, identifies Pareto by Unbiased, and directs readers to paid unbiased/pareto; the current catalog has no stealth/union-alpha match (R2, 2026-09-18 UTC).",
-    "OpenCode Go still publicly documents union-alpha / opencode-go/union-alpha as Free (limited time), but requires sign-in, a Go subscription and API key. Its displayed ‘Unlimited’ is route-specific entitlement language, not a capacity guarantee.",
-    "R2 made no inference request because no lawful pre-existing credential was present. There is no R2 HTTP status, header, latency, tool, image, rate-limit or throughput evidence (n=0).",
-    "Provider-published Pareto 26.9 claims (74 DeepSWE, 51 Terminal-Bench 4.0) and a public harness do not independently verify the retired Union Alpha preview snapshot."
+    "The historical OpenRouter page says Union Alpha’s free stealth period ended and identifies it as Pareto by Unbiased; the current catalog still has no stealth/union-alpha entry (R3-S01–02).",
+    "The separate paid unbiased/pareto route remains catalog-listed with declared metadata, but R3 did not test it or establish an immutable Union Alpha version/snapshot mapping (R3-S02–03).",
+    "The former OpenCode Go union-alpha alias is not listed in inspected current Go docs or public Go catalog; R3 sent zero Go requests because no listing and no pre-existing authorized credential were present (R3-S06–08).",
+    "Provider-published Pareto 26.9 scores and its harness remain provider material, not an independently verified Union Alpha preview benchmark (R3-S10)."
   ],
   "uncertainty": [
-    "Exact current OpenCode entitlement, model-specific limits, capacity, reliability and route success are unobserved.",
-    "Generic OpenRouter Free-plan 50/day/free-variant policy and Go ‘Unlimited’ must not be recast as a Union Alpha or Pareto quota or SLA.",
-    "Pareto component models, version/snapshot mapping across the old preview and Go alias, and Pareto-specific retention remain undisclosed or unverified."
+    "No old-ID or Go-alias HTTP response, entitlement, current price, quota, privacy, capacity, reliability, routing, tool/image behavior or SLA was observed in R3 (n=0).",
+    "No source inspected maps the former Go alias to Pareto, identifies Pareto component models/weights, or maps either former alias to a fixed snapshot/version.",
+    "Historic preview retention text and R2 Go Free/Unlimited/Not used/0-day wording are not current paid-Pareto or Go-alias policies."
   ],
-  "checked_at": "2026-09-18T08:35:00Z",
-  "meaningfully_updated_at": "2026-09-18T08:35:00Z",
-  "freshness_note": "Volatile route status. Re-check official catalog, pricing, entitlement and data-policy pages before relying on any access, price, retention, limit or capability claim."
+  "checked_at": "2026-09-20T07:35:01Z",
+  "meaningfully_updated_at": "2026-09-20T07:35:01Z",
+  "freshness_note": "Volatile route status. Re-check official catalog, pricing, access, and route-specific data-policy pages before relying on any access, price, retention, limit, or capability claim."
 }

@@ -2,6 +2,86 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "R3-S01",
+      "source_type": "primary-official",
+      "title": "Union Alpha — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Historical page says the free stealth period ended, identifies Union Alpha as Pareto by Unbiased, points to paid unbiased/pareto, and retains historical provider-retention wording.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter models catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Current catalog omits stealth/union-alpha and includes unbiased/pareto; it records canonical_slug unbiased/pareto-20260917, declared metadata and tools/tool_choice.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S03",
+      "source_type": "primary-official",
+      "title": "Pareto — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Current listing gives paid price and declared capabilities/specifications. It is catalog metadata, not a paid R3 request or a Union Alpha snapshot proof.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter Limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Free-variant policy is scoped to free variant IDs and provider capacity can produce 429. It does not set a Union Alpha or Pareto quota.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S06",
+      "source_type": "primary-official",
+      "title": "OpenCode Go documentation",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "Inspected current Go documentation contains no Union Alpha/union-alpha model, endpoint, privacy, or entitlement row; R2 route-specific wording is historical rather than current policy.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S07",
+      "source_type": "primary-official",
+      "title": "OpenCode Go public model list",
+      "source_url": "https://opencode.ai/zen/go/v1/models",
+      "claim": "Inspected public Go model catalog has no union-alpha ID. Catalog omission is not an API-error or entitlement observation.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S09",
+      "source_type": "first-party",
+      "title": "Unbiased AI home",
+      "source_url": "https://unbiased.ai/",
+      "claim": "Unbiased describes Pareto as a blended model and says Unbiased/Pareto are built and maintained by Circuit & Chisel.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R3-S10",
+      "source_type": "first-party",
+      "title": "Pareto model card",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Current model card calls the values Pareto 26.9. Those provider-published values are not independent Union Alpha preview results or R3 test results.",
+      "accessed_at": "2026-09-20T07:35:01Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "R2-S01",
       "source_type": "primary-official",
       "title": "Union Alpha — API Pricing & Providers",

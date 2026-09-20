@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "summary",
-  "meaningfully_updated_at": "2026-09-18T08:35:00Z",
+  "meaningfully_updated_at": "2026-09-20T09:52:35.540Z",
   "pages": [
     {
       "id": "summary",
@@ -9,13 +9,28 @@
       "label": "Summary",
       "icon": "◉",
       "group": "Start",
-      "description": "Current route status, attribution, limits and evidence classes.",
+      "description": "R3 route status, attribution scope, limits and n=0 access evidence.",
       "parent": null,
       "entrypoint": "index.html",
       "entrypoint_type": "html_fragment",
       "redirects": [
         "/p/union-alpha/summary/"
       ],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "current-availability",
+      "slug": "current-availability",
+      "label": "Current availability",
+      "icon": "◷",
+      "group": "Start",
+      "description": "Full current availability audit: retired preview, unlisted Go alias, and n=0 evidence boundary.",
+      "parent": null,
+      "entrypoint": "current-availability/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
       "visibility": "public",
       "indexable": true,
       "tools": []
@@ -73,7 +88,7 @@
       "label": "How to use",
       "icon": "→",
       "group": "Access",
-      "description": "Current route status and conservative documented access steps.",
+      "description": "Do not configure retired/unlisted identifiers; evaluate Pareto separately.",
       "parent": null,
       "entrypoint": "how-to-use/index.html",
       "entrypoint_type": "html_fragment",

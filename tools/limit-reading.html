@@ -5,64 +5,15 @@
   <meta name="robots" content="noindex">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'self' 'unsafe-inline'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Route limit reader</title>
+  <title>Route status reader</title>
   <style>
-    :root { color: #23262d; background: transparent; font-family: system-ui, sans-serif; }
-    body { margin: 0; }
-    [data-shaduf-resize-root] { box-sizing: border-box; padding: 14px; line-height: 1.45; }
-    h2 { margin: 0 0 4px; font-size: 16px; line-height: 1.25; }
-    p { margin: 5px 0 12px; color: #535b67; font-size: 13px; }
-    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
-    .tabs button { appearance: none; border: 1px solid #8995a5; border-radius: 7px; background: #fff; color: #27303c; padding: 7px 10px; font: inherit; font-size: 13px; cursor: pointer; }
-    .tabs button[aria-selected="true"] { border-color: #2459a6; background: #eaf2ff; color: #173d72; font-weight: 700; }
-    .tabs button:focus-visible { outline: 3px solid #6b9be0; outline-offset: 2px; }
-    .panel { border: 1px solid #cbd1d8; border-radius: 8px; padding: 12px; background: #f6f7f8; color: #303641; }
-    .tag { color: #535b67; font-size: 11px; font-weight: 700; letter-spacing: .07em; }
-    .answer { margin: 6px 0; font-size: 19px; font-weight: 750; line-height: 1.2; }
-    .rule { margin: 10px 0 0; border-top: 1px solid #cbd1d8; padding-top: 10px; color: #3f4854; font-size: 13px; }
-    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; overflow-wrap: anywhere; }
+    :root { color: #23262d; background: transparent; font-family: system-ui, sans-serif; } body { margin: 0; } [data-shaduf-resize-root] { box-sizing: border-box; padding: 14px; line-height: 1.45; } h2 { margin: 0 0 4px; font-size: 16px; line-height: 1.25; } p { margin: 5px 0 12px; color: #535b67; font-size: 13px; } .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; } .tabs button { appearance: none; border: 1px solid #8995a5; border-radius: 7px; background: #fff; color: #27303c; padding: 7px 10px; font: inherit; font-size: 13px; cursor: pointer; } .tabs button[aria-selected="true"] { border-color: #2459a6; background: #eaf2ff; color: #173d72; font-weight: 700; } .tabs button:focus-visible { outline: 3px solid #6b9be0; outline-offset: 2px; } .panel { border: 1px solid #cbd1d8; border-radius: 8px; padding: 12px; background: #f6f7f8; color: #303641; } .tag { color: #535b67; font-size: 11px; font-weight: 700; letter-spacing: .07em; } .answer { margin: 6px 0; font-size: 19px; font-weight: 750; line-height: 1.2; } .rule { margin: 10px 0 0; border-top: 1px solid #cbd1d8; padding-top: 10px; color: #3f4854; font-size: 13px; } code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; overflow-wrap: anywhere; }
   </style>
 </head>
-<body>
-  <div data-shaduf-resize-root>
-    <h2>Read limits by route, not by name</h2>
-    <p>R2 status check · 2026-09-18 UTC · documentation, not a quota test.</p>
-    <div class="tabs" role="tablist" aria-label="Route">
-      <button id="or" type="button" role="tab" aria-selected="true" aria-controls="route-panel">OpenRouter old ID</button>
-      <button id="go" type="button" role="tab" aria-selected="false" aria-controls="route-panel">OpenCode Go</button>
-    </div>
-    <section class="panel" id="route-panel" role="tabpanel" aria-live="polite" aria-labelledby="or">
-      <div class="tag" id="tag">CURRENT ROUTE STATUS</div>
-      <div class="answer" id="answer">No longer catalog-listed</div>
-      <div id="detail">The historical <code>stealth/union-alpha</code> page says the free stealth period ended. No current model-specific quota is published for the old ID.</div>
-      <div class="rule" id="rule"><strong>Do not substitute:</strong> OpenRouter’s generic 50/day plan rule and colon-suffixed free-variant policy are not a Union Alpha or Pareto cap. Pareto catalog <code>per_request_limits: null</code> does not mean “unlimited.”</div>
-    </section>
-  </div>
-  <script>
-    (() => {
-      const data = {
-        or: {
-          tag: 'CURRENT ROUTE STATUS',
-          answer: 'No longer catalog-listed',
-          detail: 'The historical <code>stealth/union-alpha</code> page says the free stealth period ended. No current model-specific quota is published for the old ID.',
-          rule: '<strong>Do not substitute:</strong> OpenRouter’s generic 50/day plan rule and colon-suffixed free-variant policy are not a Union Alpha or Pareto cap. Pareto catalog <code>per_request_limits: null</code> does not mean “unlimited.”'
-        },
-        go: {
-          tag: 'DOCUMENTED ENTITLEMENT',
-          answer: '“Unlimited” — limited time',
-          detail: 'OpenCode Go displays “Unlimited” in the Union Alpha row, but requires sign-in, a Go subscription and an API key. R2 sent no authorized request (n=0).',
-          rule: '<strong>Boundary:</strong> this is a documented Go-route entitlement/estimate, not zero-cost access, an observed capacity guarantee, a cross-route quota, or an SLA.'
-        }
-      }
-      const panel = document.getElementById('route-panel')
-      const render = id => {
-        for (const key of ['or', 'go']) document.getElementById(key).setAttribute('aria-selected', key === id ? 'true' : 'false')
-        panel.setAttribute('aria-labelledby', id)
-        for (const key of ['tag', 'answer', 'detail', 'rule']) document.getElementById(key).innerHTML = data[id][key]
-      }
-      for (const id of ['or', 'go']) document.getElementById(id).addEventListener('click', () => render(id))
-    })()
-  </script>
-  <script src="../assets/shaduf-tool-resize.js"></script>
-</body>
-</html>
+<body><div data-shaduf-resize-root>
+  <h2>Read route status before a limit label</h2><p>R3 status check · 2026-09-20 UTC · documentation and catalog review, not a quota test.</p>
+  <div class="tabs" role="tablist" aria-label="Route"><button id="or" type="button" role="tab" aria-selected="true" aria-controls="route-panel">OpenRouter preview</button><button id="pareto" type="button" role="tab" aria-selected="false" aria-controls="route-panel">Paid Pareto</button><button id="go" type="button" role="tab" aria-selected="false" aria-controls="route-panel">OpenCode Go alias</button></div>
+  <section class="panel" id="route-panel" role="tabpanel" aria-live="polite" aria-labelledby="or"><div class="tag" id="tag">CURRENT ROUTE STATUS</div><div class="answer" id="answer">Retired / no longer catalog-listed</div><div id="detail">The historical <code>stealth/union-alpha</code> page says the free stealth period ended. No old-ID request was sent.</div><div class="rule" id="rule"><strong>Do not substitute:</strong> generic free-variant policy is not a Union Alpha or Pareto quota, and catalog omission is not an HTTP error.</div></section>
+</div><script>
+(()=>{const data={or:{tag:'CURRENT ROUTE STATUS',answer:'Retired / no longer catalog-listed',detail:'The historical <code>stealth/union-alpha</code> page says the free stealth period ended. No old-ID request was sent.',rule:'<strong>Do not substitute:</strong> generic free-variant policy is not a Union Alpha or Pareto quota, and catalog omission is not an HTTP error.'},pareto:{tag:'CURRENT LISTING',answer:'Paid Pareto, not access-tested',detail:'<code>unbiased/pareto</code> remains catalog-listed. R3 did not test paid access, privacy, capacity, tools, or equivalence to the historical preview.',rule:'<strong>Boundary:</strong> declared price/specification metadata and <code>per_request_limits: null</code> are not entitlement, “unlimited,” SLA, or observed performance.'},go:{tag:'FORMER GO ALIAS',answer:'No longer listed in inspected sources',detail:'R3 found no <code>union-alpha</code> row in current Go docs or the public Go catalog. Zero Go requests were sent.',rule:'<strong>Historical only:</strong> R2 “Unlimited,” “Not used,” and 0-day wording is not current Union Alpha policy, privacy, or quota.'}};const panel=document.getElementById('route-panel');const render=id=>{for(const key of Object.keys(data))document.getElementById(key).setAttribute('aria-selected',key===id?'true':'false');panel.setAttribute('aria-labelledby',id);for(const key of ['tag','answer','detail','rule'])document.getElementById(key).innerHTML=data[id][key]};for(const id of Object.keys(data))document.getElementById(id).addEventListener('click',()=>render(id))})();
+</script><script src="../assets/shaduf-tool-resize.js"></script></body></html>
