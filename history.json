@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:manual:074ced121fdbd82f1b729113d9477151",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-23T06:26:50Z",
+      "completed_at": "2026-09-23T06:29:18Z",
+      "title": "R4 post-reveal linkage, method, and route-status audit",
+      "summary": "Former preview remains retired; paid Pareto is separate; former Go alias is absent from inspected docs, catalog, and changelog. No numeric route-specific quota or fixed alias/version mapping was found. R4 sent zero requests.",
+      "report_path": "/p/union-alpha/reports/post-reveal-audit-r4.html",
+      "entrypoint": "reports/post-reveal-audit-r4.html"
+    },
+    {
       "run_id": "run:manual:8245aa52a11393edf3b6e8fbfc3ccabd",
       "status": "completed",
       "answer_change": "meaningful_change",

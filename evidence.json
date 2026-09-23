@@ -2,6 +2,86 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "R4-S01",
+      "source_type": "primary-official",
+      "title": "Union Alpha — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Historical page says the free stealth period ended and identifies the former preview as Pareto by Unbiased. Historical retention wording is not current cross-route policy.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter models catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Current catalog omits stealth/union-alpha and lists unbiased/pareto with canonical slug unbiased/pareto-20260917, declared metadata, and null per_request_limits.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S03",
+      "source_type": "primary-official",
+      "title": "Pareto — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Current paid Pareto listing; catalog metadata is not a request result or fixed preview snapshot proof.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Generic account, key, in-flight, and free-model policy; no inspected route-specific numeric Union Alpha or Pareto quota.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S05",
+      "source_type": "primary-official",
+      "title": "OpenCode Go docs, public catalog, and changelog",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "Inspected current Go docs, public catalog, and changelog do not name union-alpha; absence is not an access result.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S06",
+      "source_type": "first-party",
+      "title": "Unbiased terms",
+      "source_url": "https://unbiased.ai/terms/",
+      "claim": "Pareto is described as a proprietary blended model whose composition may change; terms cover Unbiased services.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S07",
+      "source_type": "provider-published score claim",
+      "title": "Pareto model card",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Pareto 26.9 headline figures and preliminary DeepSWE n=30 claim are provider-published; no immutable raw package was found in inspected surfaces.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R4-S08",
+      "source_type": "first-party method repository",
+      "title": "pareto-evals",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals",
+      "claim": "Public configurable harness; inspected surfaces did not expose raw result package or former-alias/fixed-snapshot mapping.",
+      "accessed_at": "2026-09-23T06:29:18Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "R3-S01",
       "source_type": "primary-official",
       "title": "Union Alpha — API Pricing & Providers",

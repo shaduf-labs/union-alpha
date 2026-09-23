@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "r4-post-reveal-method-and-route-audit",
+      "changed_at": "2026-09-23T06:29:18Z",
+      "path": "/p/union-alpha/",
+      "summary": "R4 reconfirmed the retired OpenRouter preview and paid-but-separate Pareto route, checked the Go changelog as well as docs/catalog, and found no alias/version mapping or numeric route-specific quota. R4 sent zero requests. Provider Pareto figures remain provider-published with raw-artifact limits."
+    },
+    {
       "change_id": "r3-go-alias-delisting-and-route-boundary",
       "changed_at": "2026-09-20T07:35:01Z",
       "path": "/p/union-alpha/",
