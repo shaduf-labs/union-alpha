@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:62ac219d-07c9-40e4-821d-f07cdeec9e53",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-24T00:30:00Z",
+      "completed_at": "2026-09-24T00:36:00Z",
+      "title": "R5 final status and routine-monitoring closure",
+      "summary": "No reopening trigger was found. Historical preview attribution remains the only confirmed linkage; former Go alias and fixed-version linkage remain unproven. R5 sent zero requests, found no numeric route-specific quota, and closed routine monitoring with explicit reopen triggers.",
+      "report_path": "/p/union-alpha/reports/final-status-wind-down-r5.html",
+      "entrypoint": "reports/final-status-wind-down-r5.html"
+    },
+    {
       "run_id": "run:manual:074ced121fdbd82f1b729113d9477151",
       "status": "completed",
       "answer_change": "meaningful_change",

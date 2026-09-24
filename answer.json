@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Union Alpha’s former OpenRouter preview is retired. Its historical page says the preview was revealed as Pareto by Unbiased, but the current paid Pareto route is separate and not shown to be a fixed preview snapshot. The former OpenCode Go alias is absent from inspected current docs, catalog, and changelog. R4 sent zero requests, so access, entitlement, quota, privacy, capacity, reliability, and route equivalence remain unobserved.",
+  "current_answer": "Final status at 2026-09-24 UTC: routine monitoring is closed because no reopening trigger was found. OpenRouter’s historical page attributes its former Union Alpha preview to Pareto by Unbiased, but the retired aliases are not shown to equal a fixed current Pareto version. The former OpenCode Go alias is absent from inspected current Go sources. R5 sent zero requests, so access, entitlement, quota, privacy, capacity, reliability, and route equivalence remain unobserved.",
   "catalogue_card": {
     "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used now?",
-    "text": "Confirmed only: former OpenRouter preview → Pareto by Unbiased. Do not configure the retired OpenRouter ID or former Go alias. No inspected source supplies an alias-to-fixed-version mapping or a numeric route-specific quota. Do not transfer historical data terms, telemetry, or generic policy across routes."
+    "text": "Confirmed only: former OpenRouter preview → Pareto by Unbiased, as historical attribution. Do not configure the retired OpenRouter ID or former Go alias. No inspected source maps the Go alias or either former alias to a fixed Pareto version. No numeric route-specific quota was published. Current Pareto provider claims are not Union Alpha benchmarks."
   },
   "summary": [
-    "The historical OpenRouter page says the free stealth preview ended and was revealed as Pareto by Unbiased; the current catalog omits stealth/union-alpha (R4-S01–02).",
-    "The current paid unbiased/pareto listing is separate; its metadata does not establish a fixed preview snapshot, access, behavior, capacity, or quota (R4-S02–03).",
-    "The former OpenCode Go alias is absent from inspected current docs, public catalog, and changelog. This is source absence, not an HTTP result (R4-S05).",
-    "Pareto 26.9 figures are provider-published. The inspected public harness documents method choices but no immutable raw package tying results to Union Alpha (R4-S07–08)."
+    "No reopening trigger was found at the 2026-09-24 cutoff. The former OpenRouter preview remains historical and retired; the catalog has no stealth/union-alpha match (R5-S01–02).",
+    "The former Go alias is absent from inspected current docs, public catalog, and changelog. This is source absence, not an HTTP result or a mapping to Pareto (R5-S05).",
+    "Current paid unbiased/pareto is separately listed. Its metadata does not establish a fixed historical snapshot, access, behavior, capacity, privacy, or quota (R5-S02–03, R5-S07).",
+    "Pareto figures are provider-published. No inspected immutable raw result package or independent reproducible result establishes a Union Alpha benchmark (R5-S06, R5-S08–09)."
   ],
   "uncertainty": [
-    "R4 sent no requests (n=0). It has no HTTP, entitlement, price, quota, privacy-response, capacity, latency, tool, routing, or reliability observation.",
-    "No inspected source maps the former Go alias or either former alias to a fixed Pareto version/configuration. Unbiased terms allow blended composition to change.",
-    "No inspected current primary source publishes a numeric route-specific cap for either former alias or current Pareto. Generic OpenRouter policy and per_request_limits: null do not provide one."
+    "R5 sent no requests (n=0). It has no HTTP, entitlement, price, quota, privacy-response, capacity, latency, tool, routing, or reliability observation.",
+    "No inspected source maps the former Go alias or either former alias to a fixed Pareto version, configuration, and date. Unbiased terms allow blended composition to change.",
+    "No inspected current primary source publishes a numeric route-specific cap for either former alias or current Pareto. Generic policy and per_request_limits: null do not provide one."
   ],
-  "checked_at": "2026-09-23T06:29:18Z",
-  "meaningfully_updated_at": "2026-09-23T06:29:18Z",
-  "freshness_note": "Route and terms claims can change. Re-check official catalog, pricing, access, and route-specific data terms before relying on them."
+  "checked_at": "2026-09-24T00:36:00Z",
+  "meaningfully_updated_at": "2026-09-24T00:36:00Z",
+  "freshness_note": "Routine monitoring is closed. Reopen only for an official fixed-linkage statement, qualifying benchmark artifact or independent reproduction, official re-listing/access mapping, or material first-party route-policy change."
 }

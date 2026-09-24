@@ -2,6 +2,96 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "R5-S01",
+      "source_type": "primary-official",
+      "title": "Union Alpha — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Historical page says the free stealth period ended and identifies the former OpenRouter preview as Pareto by Unbiased. It does not map the former Go alias or a fixed Pareto version.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter models catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Current catalog omits stealth/union-alpha and lists unbiased/pareto with canonical slug unbiased/pareto-20260917 and declared metadata; null per_request_limits is not a numeric quota.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S03",
+      "source_type": "primary-official",
+      "title": "Pareto — API Pricing & Providers",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Current paid Pareto listing gives price and declared capabilities. It does not prove retired-alias linkage, a fixed snapshot, entitlement, or a quota.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter limits",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Generic account, key, free-model, and in-flight policy; no inspected numeric route-specific quota for former aliases or current Pareto.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S05",
+      "source_type": "primary-official",
+      "title": "OpenCode Go docs, public catalog, and changelog",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "Inspected current Go docs, public catalog, and changelog do not name union-alpha; this absence is not an access result or mapping evidence.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S06",
+      "source_type": "provider-published score claim",
+      "title": "Pareto model card",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Pareto 26.9 headline figures and a preliminary DeepSWE n=30 point are provider-published. No fixed former-alias linkage or qualifying immutable run package was inspected.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S07",
+      "source_type": "first-party",
+      "title": "Unbiased terms",
+      "source_url": "https://unbiased.ai/terms/",
+      "claim": "Pareto composition may change; Unbiased service-data terms are route-scoped and do not establish historical route policy or fixed linkage.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S08",
+      "source_type": "first-party method repository",
+      "title": "pareto-evals",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals",
+      "claim": "Public configurable harness and method code, not a published fixed-route result or former-alias/version mapping.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "R5-S09",
+      "source_type": "attempted public repository release/results surfaces",
+      "title": "pareto-evals releases and results surfaces",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals/releases",
+      "claim": "Release/results surfaces were not inspectable because of browser-cache misses; this is not proof of absence.",
+      "accessed_at": "2026-09-24T00:36:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "R4-S01",
       "source_type": "primary-official",
       "title": "Union Alpha — API Pricing & Providers",

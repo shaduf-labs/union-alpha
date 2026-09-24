@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "r5-final-status-and-routine-monitoring-closure",
+      "changed_at": "2026-09-24T00:36:00Z",
+      "path": "/p/union-alpha/",
+      "summary": "R5 found no reopening trigger. The historical OpenRouter preview attribution remains the only confirmed linkage; the former Go alias and fixed-version linkage remain unproven. R5 sent zero requests, found no numeric route-specific quota, retained Pareto figures as provider claims, and closed routine monitoring with explicit reopen triggers."
+    },
+    {
       "change_id": "r4-post-reveal-method-and-route-audit",
       "changed_at": "2026-09-23T06:29:18Z",
       "path": "/p/union-alpha/",
