@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "october-9-separate-26-10-preview-gate-audit",
+      "changed_at": "2026-10-09T06:55:00Z",
+      "path": "/p/union-alpha/reports/october-gate-audit.html",
+      "summary": "A separate mutable Pareto 26.10 Preview is listed, but no inspected official source maps a former Union Alpha alias to it or says it replaced older paid Pareto. No reopening trigger was met; R5 wind-down remains in force. Audit requests n=0."
+    },
+    {
       "change_id": "r5-final-status-and-routine-monitoring-closure",
       "changed_at": "2026-09-24T00:36:00Z",
       "path": "/p/union-alpha/",

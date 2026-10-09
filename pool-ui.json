@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "summary",
-  "meaningfully_updated_at": "2026-09-24T00:36:00Z",
+  "meaningfully_updated_at": "2026-10-09T06:55:00Z",
   "pages": [
     {
       "id": "summary",
@@ -9,7 +9,7 @@
       "label": "Summary",
       "icon": "◉",
       "group": "Start",
-      "description": "R5 final status: routine monitoring closed; historical attribution and evidence limits.",
+      "description": "R5 wind-down, with October 9 clarification on separate mutable Pareto 26.10 Preview.",
       "parent": null,
       "entrypoint": "index.html",
       "entrypoint_type": "html_fragment",
@@ -26,7 +26,7 @@
       "label": "Current availability",
       "icon": "◷",
       "group": "Start",
-      "description": "R5 final status: retired preview, separate Pareto, absent Go alias, and n=0.",
+      "description": "Former aliases, older paid Pareto, and distinct 26.10 Preview at the October 9 audit.",
       "parent": null,
       "entrypoint": "current-availability/index.html",
       "entrypoint_type": "html_fragment",

@@ -2,6 +2,136 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "O-S01",
+      "source_type": "primary-official",
+      "title": "OpenRouter — O-S01",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Historical OpenRouter preview attributed to Pareto by Unbiased; free period ended; no fixed-version or Go-alias mapping.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter — O-S02",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Former alias absent from inspected public catalog; older paid route and distinct 26.10 preview both present; per_request_limits null is not a quota.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S03",
+      "source_type": "primary-official",
+      "title": "OpenRouter — O-S03",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Older paid route remains separately listed at R5 prices; no retirement/replacement notice.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter — O-S04",
+      "source_url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+      "claim": "Separate mutable next-version preview with own price/context; no former-alias mapping or older-route replacement claim.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S05",
+      "source_type": "primary-official",
+      "title": "OpenCode — O-S05",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "No union-alpha match in three inspected Go surfaces; no access test.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S05-catalog",
+      "source_type": "primary-official",
+      "title": "OpenCode Go public model catalog",
+      "source_url": "https://opencode.ai/zen/go/v1/models",
+      "claim": "Inspected catalog had no union-alpha match; omission does not establish entitlement or HTTP behavior.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S05-changelog",
+      "source_type": "primary-official",
+      "title": "OpenCode changelog",
+      "source_url": "https://opencode.ai/changelog",
+      "claim": "No union-alpha match in inspected changelog through latest visible October 6 entry.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S06",
+      "source_type": "primary-official",
+      "title": "Unbiased — O-S06",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Revised preliminary provider chart, without old-alias linkage, raw run package, complete denominator/cost method, or independent validation.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S07",
+      "source_type": "primary-official",
+      "title": "Unbiased — O-S07",
+      "source_url": "https://unbiased.ai/pricing/",
+      "claim": "Current direct-platform plan prices and RPM; no R5 comparator and no OpenRouter route-policy equivalence.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S08",
+      "source_type": "primary-official",
+      "title": "Circuit & Chisel / Unbiased — O-S08",
+      "source_url": "https://unbiased.ai/terms/",
+      "claim": "Current direct-service retention policy; no versioned R5 policy text proving change, no retroactive old-route scope.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S09",
+      "source_type": "primary-official",
+      "title": "OpenRouter — O-S09",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Generic account/key/provider limit guidance; no inspected numeric route-specific quota.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S10",
+      "source_type": "first-party method repository",
+      "title": "Circuit & Chisel — O-S10",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals",
+      "claim": "Configurable harness; no releases and no results directory visible in root table; no qualifying raw run found on inspected surfaces.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "O-S11",
+      "source_type": "first-party method repository",
+      "title": "Circuit & Chisel / GitHub — O-S11",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals/tree/main/results",
+      "claim": "Browser internal error/cache miss; result surfaces not inspectable and nonexistence not established.",
+      "accessed_at": "2026-10-09T06:55:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "R5-S01",
       "source_type": "primary-official",
       "title": "Union Alpha — API Pricing & Providers",

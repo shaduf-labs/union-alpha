@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:d4686cbc-838d-4803-b7b7-1ed5c08741bc",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-09T06:53:25Z",
+      "completed_at": "2026-10-09T06:55:00Z",
+      "title": "October 9 gate audit and separate 26.10 Preview clarification",
+      "summary": "No reopening trigger met. A separate mutable Pareto 26.10 Preview is now listed, but neither former Union Alpha alias is mapped to it; older paid Pareto remains separately listed. R5 wind-down stays in force; no requests were sent.",
+      "report_path": "/p/union-alpha/reports/october-gate-audit.html",
+      "entrypoint": "reports/october-gate-audit.html"
+    },
+    {
       "run_id": "run:62ac219d-07c9-40e4-821d-f07cdeec9e53",
       "status": "completed",
       "answer_change": "meaningful_change",
