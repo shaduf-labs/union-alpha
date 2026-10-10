@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "october-10-no-reopen-gate-repository-ignore-rule",
+      "changed_at": "2026-10-10T00:38:00Z",
+      "path": "/p/union-alpha/reports/october-10-gate-audit.html",
+      "summary": "No R6–R9 reopening trigger met; R5 wind-down remains in force. Official eval repository .gitignore ignores results/, which is not a raw result or proof no artifact exists elsewhere. Direct results tree uninspectable; audit requests n=0."
+    },
+    {
       "change_id": "october-9-separate-26-10-preview-gate-audit",
       "changed_at": "2026-10-09T06:55:00Z",
       "path": "/p/union-alpha/reports/october-gate-audit.html",

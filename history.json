@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "run:5526c8e8-b8a3-453a-aff8-02cbc020a2ba",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-10T00:36:33Z",
+      "completed_at": "2026-10-10T00:38:00Z",
+      "title": "October 10 source-delta gate audit",
+      "summary": "No reopening trigger or new Union Alpha technical claim. The eval repository ignores results/, but no raw result was verified; the direct results tree remained uninspectable. No requests were sent.",
+      "report_path": "/p/union-alpha/reports/october-10-gate-audit.html",
+      "entrypoint": "reports/october-10-gate-audit.html"
+    },
+    {
       "run_id": "run:d4686cbc-838d-4803-b7b7-1ed5c08741bc",
       "status": "completed",
       "answer_change": "no_meaningful_change",

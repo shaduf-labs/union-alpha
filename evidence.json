@@ -2,6 +2,116 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "T-S01",
+      "source_type": "primary-official",
+      "title": "OpenRouter historical Union Alpha page",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Former preview attributed to Pareto by Unbiased; free period ended; no fixed-version or Go-alias mapping.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S02",
+      "source_type": "primary-official",
+      "title": "OpenRouter public model catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Exact old ID absent from inspected catalog; older Pareto and separate 26.10 Preview listed; per_request_limits null is not a quota.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S03",
+      "source_type": "primary-official",
+      "title": "OpenRouter older paid Pareto listing",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Older paid route remains separately listed; no older-route replacement or retirement notice on inspected listing.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter Pareto 26.10 Preview listing",
+      "source_url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+      "claim": "Separate mutable preview; no former-alias mapping or older-route replacement claim. This route was already reported October 9.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S05",
+      "source_type": "primary-official",
+      "title": "OpenCode Go documentation",
+      "source_url": "https://opencode.ai/docs/go",
+      "claim": "No union-alpha match in inspected current Go docs, catalog or changelog; no old-ID request.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S06",
+      "source_type": "provider-published score claim",
+      "title": "Unbiased provider model card",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Preliminary 26.10/26.9 provider chart, not a Union Alpha score or qualifying immutable raw run.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S07",
+      "source_type": "primary-official",
+      "title": "Unbiased direct-service pricing",
+      "source_url": "https://unbiased.ai/pricing/",
+      "claim": "Direct-service plan RPM does not establish OpenRouter or former-alias limits.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S08",
+      "source_type": "primary-official",
+      "title": "Unbiased direct-service terms",
+      "source_url": "https://unbiased.ai/terms/",
+      "claim": "Current direct-service data policy does not retroactively establish former-preview retention or a like-for-like older OpenRouter change.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S09",
+      "source_type": "primary-official",
+      "title": "OpenRouter generic limits documentation",
+      "source_url": "https://openrouter.ai/docs/api_reference/limits",
+      "claim": "Generic account and model limits do not supply a numeric older Pareto or former-alias route-specific cap.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S10",
+      "source_type": "first-party method repository",
+      "title": "Circuit & Chisel pareto-evals .gitignore",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals/blob/main/.gitignore",
+      "claim": "The public .gitignore ignores results/. This is not an immutable run package and does not prove artifacts do not exist elsewhere.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "T-S11",
+      "source_type": "attempted public repository result surface",
+      "title": "pareto-evals results tree",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals/tree/main/results",
+      "claim": "Direct results-tree URL was uninspectable through browser; separate HTTPS attempt was sandbox-DNS blocked, not HTTP 404. Nonexistence was not established.",
+      "accessed_at": "2026-10-10T00:38:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "O-S01",
       "source_type": "primary-official",
       "title": "OpenRouter — O-S01",
