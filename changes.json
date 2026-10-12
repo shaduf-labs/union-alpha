@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "october-12-no-r6-r9-reopening-trigger",
+      "changed_at": "2026-10-12T06:57:00Z",
+      "path": "/p/union-alpha/reports/october-12-gate-audit.html",
+      "summary": "One-time primary-source audit found no R6–R9 reopening trigger or new Union Alpha technical/access result. The public eval root shows no results/ directory, but direct tree/tags/releases inventory was uninspectable; no absence proof. Audit requests n=0; R5 wind-down remains in force."
+    },
+    {
       "change_id": "october-10-no-reopen-gate-repository-ignore-rule",
       "changed_at": "2026-10-10T00:38:00Z",
       "path": "/p/union-alpha/reports/october-10-gate-audit.html",

@@ -2,6 +2,116 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "U-S01",
+      "source_type": "first-party method repository",
+      "title": "Circuit & Chisel pareto-evals root",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals",
+      "claim": "Visible public root has no results/ directory; README describes locally generated output. Direct recursive tree inventory was uninspectable; no global absence proved.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S02",
+      "source_type": "attempted public repository inventory",
+      "title": "GitHub recursive tree API",
+      "source_url": "https://api.github.com/repos/circuitandchisel/pareto-evals/git/trees/main?recursive=1",
+      "claim": "Direct tree, tags and releases API attempts returned browser-internal not-accessible errors, not HTTP 404 or verified empty results; HTML tags cache miss.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S03",
+      "source_type": "first-party method repository",
+      "title": "Circuit & Chisel pareto-evals releases",
+      "source_url": "https://github.com/circuitandchisel/pareto-evals/releases",
+      "claim": "HTML releases page says none but was crawled six days before retrieval; .gitignore still ignores results/. Cannot close October 10–12 interval.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S04",
+      "source_type": "primary-official",
+      "title": "OpenRouter historical Union Alpha page",
+      "source_url": "https://openrouter.ai/stealth/union-alpha",
+      "claim": "Historical attribution to Pareto by Unbiased and ended free period; no exact former-alias version/configuration/date mapping.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S05",
+      "source_type": "primary-official",
+      "title": "OpenRouter model catalog",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "claim": "Exact old ID absent from inspected catalog; older Pareto and separate 26.10 entries persist. per_request_limits null is not a numeric quota.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S06",
+      "source_type": "primary-official",
+      "title": "OpenCode changelog and Go surfaces",
+      "source_url": "https://opencode.ai/changelog",
+      "claim": "October 11 v1.19.0 entry is unrelated to Union Alpha. Former Go alias absent from inspected changelog, docs and public catalog; not an endpoint result.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S07",
+      "source_type": "primary-official",
+      "title": "OpenRouter older paid Pareto listing",
+      "source_url": "https://openrouter.ai/unbiased/pareto",
+      "claim": "Older paid route remains separately listed at October 10 price/context; no inspected retirement, replacement or route-specific numeric quota.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S08",
+      "source_type": "primary-official",
+      "title": "OpenRouter Pareto 26.10 Preview listing",
+      "source_url": "https://openrouter.ai/unbiased/pareto-26.10-preview",
+      "claim": "Separate mutable preview already recorded October 9; no former-alias mapping or older-route replacement.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S09",
+      "source_type": "provider-published score claim",
+      "title": "Unbiased model card",
+      "source_url": "https://unbiased.ai/model-card/",
+      "claim": "Preliminary 26.10/26.9 chart has no fixed former-alias pin or inspected raw per-task result package; not a Union Alpha benchmark.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S10",
+      "source_type": "primary-official",
+      "title": "Unbiased direct-service terms",
+      "source_url": "https://unbiased.ai/terms/",
+      "claim": "September 24 direct-service terms do not establish a like-for-like older OpenRouter policy delta.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "U-S11",
+      "source_type": "primary-official",
+      "title": "OpenRouter stealth terms",
+      "source_url": "https://openrouter.ai/terms/stealth",
+      "claim": "September 14 historical stealth EULA does not establish a new older paid-route policy.",
+      "accessed_at": "2026-10-12T06:57:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "T-S01",
       "source_type": "primary-official",
       "title": "OpenRouter historical Union Alpha page",
