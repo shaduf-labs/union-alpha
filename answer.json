@@ -1,29 +1,28 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "October 12, 2026 source audit: no R6–R9 reopening trigger was met; R5 routine-monitoring wind-down remains in force. The former OpenRouter Union Alpha preview has historical Pareto by Unbiased attribution, but neither former alias is mapped to a fixed version. Older paid Pareto and the separate mutable 26.10 Preview remain distinct routes. No new Union Alpha technical, access, quota, or benchmark result was established. The audit sent zero requests.",
+  "current_answer": "Then: OpenRouter offered a free stealth/union-alpha preview and OpenCode Go named Union Alpha. Now, at the latest source review (2026-10-12T06:57:00Z), the former OpenRouter preview had ended and the former Go alias was absent from inspected current sources. Not equivalent: older paid unbiased/pareto and separate mutable unbiased/pareto-26.10-preview are distinct listings; neither former alias is mapped to a fixed version or either current route. No old-ID endpoint or benchmark test was made.",
   "catalogue_card": {
     "question": "What is Union Alpha, who is behind it, how well does it perform, what limits apply, and how can it be used now?",
-    "text": "R5 wind-down remains in force after the October 12 source audit. No fixed former-alias version mapping, numeric route-specific quota, tested access, or Union Alpha benchmark was established. Direct eval-repository artifact inventory was uninspectable through the browser."
+    "text": "Former Union Alpha aliases are not current launch instructions. The OpenRouter preview ended; the former Go alias is absent from inspected current sources. Older paid Pareto and separate mutable 26.10 Preview are distinct listings, not fixed former-alias continuations. Last source review: Oct 12, 2026; no endpoint test."
   },
   "summary": [
-    "October 12: no R6–R9 trigger. The public eval repository root shows no results/ directory, but direct tree/tags/releases inventory was uninspectable; no qualifying raw artifact was verified. The October 11 OpenCode changelog addition was unrelated; no requests were sent (U-S01–03, U-S06).",
-    "October 10: no primary-source reopening gate met. The official pareto-evals .gitignore ignores results/; that does not supply raw results or prove none exist elsewhere. The results tree remained uninspectable and no requests were sent (T-S10–11).",
-    "October 9: separate mutable unbiased/pareto-26.10-preview is listed on OpenRouter. Older paid unbiased/pareto remains separately listed; neither former alias is mapped to 26.10. The new preview’s price, context and provider-published scores are not Union Alpha facts (O-S01–04, O-S06).",
-    "R5 found no reopening trigger at its 2026-09-24 cutoff; the October 9 gate audit also found none. The former OpenRouter preview remains historical and retired; the catalog has no stealth/union-alpha match (R5-S01–02).",
-    "The former Go alias is absent from inspected current docs, public catalog, and changelog. This is source absence, not an HTTP result or a mapping to Pareto (R5-S05).",
-    "Current paid unbiased/pareto is separately listed. Its metadata does not establish a fixed historical snapshot, access, behavior, capacity, privacy, or quota (R5-S02–03, R5-S07).",
-    "Pareto figures are provider-published. No inspected immutable raw result package or independent reproducible result establishes a Union Alpha benchmark (R5-S06, R5-S08–09)."
+    "Former OpenRouter stealth/union-alpha: historical page attributes the ended free preview to Pareto by Unbiased; exact old ID absent from inspected catalog. This is not an endpoint result or fixed-version pin (U-S04–05).",
+    "Former OpenCode Go union-alpha / opencode-go/union-alpha: absent from inspected current Go docs, public catalog and changelog. Source absence does not map it to Pareto or establish access (U-S06).",
+    "Older paid OpenRouter unbiased/pareto remains separately listed at $2.50/M input, $7.50/M output and $0.25/M cache read, with 262,144 context. These are listed terms, not tested charges or former-alias terms (U-S05, U-S07).",
+    "Separate mutable unbiased/pareto-26.10-preview is listed as an Oct 1 next-version preview at $0.80/M input, $3.20/M output and $0.03/M cache read, with 1,048,576 context. No source maps a former alias to it or says it replaced older paid Pareto (O-S02–04, U-S08).",
+    "No inspected source gives a numeric route-specific cap for these routes; per_request_limits: null is not unlimited. No tested access, charged price or route behavior was established (R5-S04, U-S05).",
+    "Pareto 26.9 and preliminary 26.10 figures are provider claims, not Union Alpha results. No inspected immutable raw run package, independent reproduction or fixed former-alias pin supports a Union Alpha score (R5-S06, U-S01–03, U-S09).",
+    "The September 24 and October 9, 10 and 12 reviews did not establish the evidence needed to reassess these route and benchmark conclusions. Those reviews made no inference or old-ID access requests."
   ],
   "uncertainty": [
-    "October 12 review sent no inference, old-ID access, quota or benchmark requests (n=0). Browser-internal errors on GitHub APIs and a cached releases page are not HTTP 404 or a current complete artifact inventory. Public root absence does not prove global absence.",
-    "October 10 review sent no requests (n=0); the direct results-tree URL was uninspectable, not proven absent. The .gitignore rule is a repository packaging observation, not a benchmark result.",
-    "The October 9 audit sent no requests (n=0). The 26.10 listing is a separate mutable preview, not an access result or fixed former-alias linkage. Its per_request_limits: null field is not an unlimited-quota statement.",
-    "R5 sent no requests (n=0). It has no HTTP, entitlement, price, quota, privacy-response, capacity, latency, tool, routing, or reliability observation.",
-    "No inspected source maps the former Go alias or either former alias to a fixed Pareto version, configuration, and date. Unbiased terms allow blended composition to change.",
-    "No inspected current primary source publishes a numeric route-specific cap for either former alias or current Pareto. Generic policy and per_request_limits: null do not provide one."
+    "The latest primary-source review ended on 2026-10-12T06:57:00Z. This October 14 summary adds no new source observation or verified endpoint behavior.",
+    "R5 and October audits made no inference, old-ID access, quota or benchmark requests (n=0). Listed prices are not tested charges.",
+    "No inspected source maps either former alias to a fixed Pareto version, configuration and date, older paid Pareto, or 26.10 Preview. OpenRouter catalog omission and Go source absence do not establish endpoint responses.",
+    "No inspected current primary source publishes a numeric route-specific cap for either former alias or either separately listed Pareto route. Generic policy and per_request_limits: null do not provide one.",
+    "On Oct 12 the public eval repository root did not show results/, while direct recursive tree/tags/releases inventory was uninspectable. Browser-internal errors are not HTTP 404 or proof of global artifact absence."
   ],
   "checked_at": "2026-10-12T06:57:00Z",
   "meaningfully_updated_at": "2026-09-24T00:36:00Z",
-  "freshness_note": "R5 routine-monitoring closure remains in force. The October 9, 10 and 12 source audits found no reopening gate. No routine check is scheduled after the October 12 one-time audit; revisit only a qualifying primary-source lead or owner direction."
+  "freshness_note": "Primary sources were last reviewed on October 12, 2026 at 06:57 UTC. The October 14 summary adds no new source observations. Current endpoint behavior, numeric quotas, and measured Union Alpha performance remain unverified."
 }

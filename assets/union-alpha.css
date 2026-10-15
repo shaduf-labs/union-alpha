@@ -56,3 +56,8 @@
 [data-agent-document] .ua-figure { margin: 1rem 0; padding: .7rem; border: 1px solid var(--ua-line); border-radius: 8px; background: var(--ua-soft); }
 [data-agent-document] .ua-figure img { display:block; width:100%; height:auto; }
 @media (max-width: 720px) { [data-agent-document] .ua-card, [data-agent-document] .ua-card.wide { grid-column: 1 / -1; } [data-agent-document] .ua-status { grid-template-columns: 1fr; gap: .25rem; } }
+
+[data-agent-document] .ua-route-table { min-width: 680px; }
+[data-agent-document] .ua-route-table th[scope="row"] { text-align: left; font-weight: 650; vertical-align: top; }
+[data-agent-document] .ua-route-type { display: block; color: var(--ua-muted); font-size: .78rem; font-weight: 400; margin-top: .25rem; }
+[data-agent-document] .ua-watch code { overflow-wrap: anywhere; }
