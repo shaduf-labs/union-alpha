@@ -2,13 +2,24 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-91467ab50877f3a0ff5438d7",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-16T00:30:00Z",
+      "completed_at": "2026-10-16T00:37:06.949785Z",
+      "title": "October 16 saved-evidence status",
+      "summary": "Archival synthesis only: no new primary-source observation, endpoint or quota test, or benchmark. The four-route answer and R5 monitoring closure remain unchanged on sources last reviewed October 12 at 06:57 UTC; requests n=0.",
+      "report_path": "/p/union-alpha/reports/october-16-archival-status.html",
+      "entrypoint": "reports/october-16-archival-status.html"
+    },
+    {
       "run_id": "report-a7428a715f25e40bb1ec2921",
       "status": "completed",
       "answer_change": "no_meaningful_change",
       "started_at": "2026-10-14T00:30:00Z",
       "completed_at": "2026-10-14T00:38:57.618Z",
-      "title": "October 14 route and evidence boundaries",
-      "summary": "Former OpenRouter and Go aliases, older paid Pareto, and separate 26.10 Preview require distinct evidence. Primary sources were last reviewed October 12 at 06:57 UTC. No endpoint, quota, or benchmark test was performed (n=0).",
+      "title": "October 14 archival claim-to-page reconciliation",
+      "summary": "Saved-evidence reconciliation clarified the draft route answer and evidence boundaries without a new source review, endpoint test, benchmark, or Union Alpha finding. R6–R9 remain no-go on sources last reviewed October 12 at 06:57 UTC; requests n=0.",
       "report_path": "/p/union-alpha/reports/october-14-route-evidence.html",
       "entrypoint": "reports/october-14-route-evidence.html"
     },
