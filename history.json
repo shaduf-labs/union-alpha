@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-74b66241289667386dd229eb",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-18T00:30:00Z",
+      "completed_at": "2026-10-18T01:26:30Z",
+      "title": "October 18 saved-evidence status",
+      "summary": "Archival synthesis only: no new primary-source observation, endpoint or quota test, or benchmark. The four-route answer and R5 monitoring closure remain unchanged on sources last reviewed October 12 at 06:57 UTC; requests n=0.",
+      "report_path": "/p/union-alpha/reports/october-18-saved-evidence-status.html",
+      "entrypoint": "reports/october-18-saved-evidence-status.html"
+    },
+    {
       "run_id": "report-91467ab50877f3a0ff5438d7",
       "status": "completed",
       "answer_change": "no_meaningful_change",
