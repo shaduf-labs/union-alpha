@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-f97e94e65e630db00a01d8d6",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-20T00:30:00Z",
+      "completed_at": "2026-10-20T00:35:43Z",
+      "title": "October 20 archival status",
+      "summary": "No new source observation or research-answer change. The route and benchmark distinctions remain based on sources last reviewed October 12 at 06:57 UTC; later route behavior is unverified.",
+      "report_path": "/p/union-alpha/reports/october-20-archival-status.html",
+      "entrypoint": "reports/october-20-archival-status.html"
+    },
+    {
       "run_id": "report-74b66241289667386dd229eb",
       "status": "completed",
       "answer_change": "no_meaningful_change",
