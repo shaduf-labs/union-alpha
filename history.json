@@ -2,6 +2,17 @@
   "schema_version": "1.0.0",
   "runs": [
     {
+      "run_id": "report-58da0ea179f61374fdef1a51",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-11-03T00:30:00Z",
+      "completed_at": "2026-11-03T07:51:59Z",
+      "title": "November 3 archival status",
+      "summary": "No new source observation or research-answer change. Former-alias and separate-Pareto-route distinctions remain based on sources last reviewed October 12 at 06:57 UTC; later route behavior is unverified. R5 routine monitoring remains closed.",
+      "report_path": "/p/union-alpha/reports/november-3-archival-status.html",
+      "entrypoint": "reports/november-3-archival-status.html"
+    },
+    {
       "run_id": "report-2d7b0b663b23be8f519f605d",
       "status": "completed",
       "answer_change": "no_meaningful_change",
